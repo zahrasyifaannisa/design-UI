@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/iconly_curved_arrow___left_square"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/iconly_curved_danger_square"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     Masuk atau Daftar"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="        masuk atau daftar cuma butuh nomor HP saja"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_2"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       +62"
+        android:textColor="@color/grey"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       Nomor HP ga aktif atau hilang"
+        android:textColor="@color/aqua"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="418dp"
+        android:layout_height="119dp"
+        app:srcCompat="@drawable/rectangle_4"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="622dp" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Dengan masuk daftar, kamu sudah setuju sama Ketentuan Layanan dan Kebijakan Privasi OSO "
+        android:textSize="12dp"
+        android:textColor="@color/aqua"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/rectangle_5"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
